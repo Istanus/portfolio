@@ -1,0 +1,132 @@
+body{
+	background-color: #f7f7f7 !important;
+}
+
+.fluid-d1{
+	height: 384px;
+}
+
+.header-row{
+	height: 30%;
+	margin-bottom: 0 !important;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.intro-row{
+	height: 70%;
+	margin-bottom: 0 !important;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fluid-d2{
+	height: 300px;
+}
+
+.more-row{
+	height: 30%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0 !important;
+}
+
+.footer-row{
+	height: 70%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0 !important;
+}
+
+.add-button{
+	height: 48px;
+	width: 48px;
+	position: absolute;
+	left: 48.3%;
+	right: auto;
+	margin-top: 20px;
+}
+
+.filter-container{
+	width: 48px;
+	height: 190px;
+	position:relative;
+     -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 1px 5px 1px #ddd;
+}
+
+/*.filter-container:before, 
+.filter-container:after{
+	z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+.filter-container:after{
+	-webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}*/
+
+.nav-filter{
+	position: fixed;
+	margin-left: 15px;
+}
+
+.filter-icon{
+	display: block;
+	height: 48px;
+	width: 48px;
+}
+
+
+/* .. grid ..*/
+
+.grid{
+	/*max-width: 1200px;
+	height: 1918.2px;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	border-radius: 0 !important;*/
+}
+
+.grid-sizer,
+.grid-item{
+	width: 25% !important;
+}
+
+.grid-item{
+	height: 274px !important;
+	border:1px solid;
+	border-radius: 0 !important;
+}
+
+.grid-item--width2{width: 50% !important;}
+.grid-item--width3{width: 75% !important;}
+.grid-item--width4{width: 100% !important;}
+
+.grid-item--height2{height: 548px !important;}
+.grid-item--height3{height: 1096px !important;}
